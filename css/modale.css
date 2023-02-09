@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font: 1.6rem "Roboto", sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+button {
+  padding: 0;
+  font-size: inherit;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+/* scroll personnalisé */
+* {
+  /* firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgb(26, 8, 90) #fff;
+}
+/* pour chrome */
+*::-webkit-scrollbar {
+  width: 0.2rem;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #000;
+  outline: 0.1rem solid #fff;
+}
